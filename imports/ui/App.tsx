@@ -1,11 +1,9 @@
 import React from 'react';
-import { Hello } from './Hello';
-import { Info } from './Info';
+import { TextInput } from "/imports/ui/components/TextInput"
 
 export const App = () => (
-  <div>
+  <div className="p-10">
     <h1>Welcome to Meteor!</h1>
-    <Hello />
-    <Info />
+    <TextInput text="hello"></TextInput>
   </div>
 );
