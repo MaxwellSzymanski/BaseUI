@@ -1,9 +1,9 @@
 import React from 'react';
-import { TextInput } from "/imports/ui/components/TextInput"
+import { Button } from '.';
 
 export const App = () => (
-  <div className="p-10">
-    <h1>Welcome to Meteor!</h1>
-    <TextInput text="hello"></TextInput>
+  <div className="p-10 justify-center flex flex-col items-center">
+    <h1 className="">Welcome to Meteor!</h1>
+    <Button label='Hello'/>
   </div>
 );
