@@ -28,7 +28,8 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    backgroundColor: ['hover', 'active'],
+    scale: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
   },
   plugins: [],
 };
